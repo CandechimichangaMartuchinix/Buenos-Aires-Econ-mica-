@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Buenos Aires Económica 🌞</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>🌞 Buenos Aires Económica 🌞</h1>
+    <p>Explorá Buenos Aires de manera económica y divertida, accesible en tren y colectivo.</p>
+    <nav>
+      <a href="#lugares">Lugares</a>
+      <a href="#trenes">Trenes</a>
+      <a href="#comidas">Comida</a>
+      <a href="#datos">Dato Curioso</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- 🌳 LUGARES TURÍSTICOS -->
+    <section id="lugares" class="celeste">
+      <h2>Lugares para visitar</h2>
+      <div class="galeria">
+        <article>
+          <h3>El Rosedal de Palermo 📸</h3>
+          <img src="rodesal.jpg" alt="Rosedal de Palermo">
+          <p>Ideal para caminar y hacer picnic. Selfie spot: puente de rosas.</p>
+          <p>Actividad destacada: paseo en bicicleta.</p>
+        </article>
+
+        <article>
+          <h3>Reserva Ecológica Costanera Sur 📸</h3>
+          <img src="reserva.jpg" alt="Reserva Ecológica Costanera Sur">
+          <p>Senderos naturales y avistamiento de aves. Selfie spot: mirador frente al río.</p>
+        </article>
+
+        <article>
+          <h3>Parque Centenario 📸</h3>
+          <img src="parquecentenario.jpg" alt="Parque Centenario">
+          <p>Clásico porteño con feria y lago. Selfie spot: monumento central.</p>
+        </article>
+
+        <article>
+          <h3>Museo Nacional de Bellas Artes</h3>
+          <img src="bellasartes.jpg" alt="Museo Nacional de Bellas Artes">
+          <p>Entrada gratuita. Selfie spot: escultura de Rodin en el patio central.</p>
+        </article>
+
+        <article>
+          <h3>Museo de Arte Moderno</h3>
+          <img src="museomoderno.jpg" alt="Museo de Arte Moderno">
+          <p>Exposiciones interactivas y murales fotogénicos. Selfie spot: terraza y fachada.</p>
+        </article>
+
+        <article>
+          <h3>Barrio de San Telmo</h3>
+          <img src="santelmo.jpg" alt="San Telmo">
+          <p>Calles empedradas, tango y feria dominical. Selfie spot: Plaza Dorrego.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- 🚆 TRENES Y COLECTIVOS -->
+    <section id="trenes" class="amarillo">
+      <h2>Cómo llegar en tren y colectivo</h2>
+      <ul>
+        <li>🚉 <b>San Martín:</b> conecta Palermo, Villa del Parque y Retiro.</li>
+        <li>🚉 <b>Mitre:</b> Belgrano, Retiro y norte de la ciudad.</li>
+        <li>🚉 <b>Sarmiento:</b> Caballito, Flores y Once.</li>
+        <li>🚉 <b>Roca:</b> Constitución, Barracas y La Boca.</li>
+      </ul>
+      <p>💡 Consejo: combiná tren + colectivo para moverte rápido y económico.</p>
+    </section>
+
+    <!-- 🍕 COMIDAS -->
+    <section id="comidas" class="naranja">
+      <h2>Comidas Cercanas</h2>
+
+      <!-- PIZZERÍAS -->
+      <h3>Pizzerías</h3>
+
+      <article>
+        <h4>Guerrin</h4>
+        <p><b>Ubicación:</b> Avenida Corrientes, centro de Buenos Aires</p>
+        <p><b>Historia:</b> Fundada en 1932, más de 90 años de tradición.</p>
+        <p><b>Logro:</b> Reconocida por vender “la mejor pizza de Buenos Aires” en 2023.</p>
+      </article>
+
+      <article>
+        <h4>El Cuartito</h4>
+        <p><b>Ubicación:</b> Avenida Corrientes, centro</p>
+        <p><b>Historia:</b> Abierto desde 1934, clásico porteño.</p>
+        <p><b>Logro:</b> Famosa por su pizza de muzzarella y fugazzeta tradicional.</p>
+      </article>
+
+      <article>
+        <h4>Los Inmortales</h4>
+        <p><b>Ubicación:</b> Avenida Corrientes, centro</p>
+        <p><b>Historia:</b> Fundada en 1939, tradición en pizza rellena y empanadas.</p>
+        <p><b>Logro:</b> Premiada varias veces por su fugazzeta rellena.</p>
+      </article>
+
+      <!-- OTRAS OPCIONES -->
+      <h3>Otras opciones gastronómicas</h3>
+
+      <article>
+        <h4>Feria de San Telmo</h4>
+        <p><b>Ubicación:</b> Plaza Dorrego, San Telmo</p>
+        <p><b>Historia:</b> Feria dominical con puestos de comida callejera desde los años 70.</p>
+        <p><b>Especialidad:</b> Empanadas, choripanes y dulces artesanales.</p>
+      </article>
+
+      <article>
+        <h4>Cafés en Caballito</h4>
+        <p><b>Ubicación:</b> Alrededor del Parque Centenario</p>
+        <p><b>Historia:</b> Cafés tradicionales con menú del día económico.</p>
+        <p><b>Especialidad:</b> Café con medialunas y menú accesible para turistas y vecinos.</p>
+      </article>
+
+    </section>
+
+    <!-- 🎲 DATO CURIOSO -->
+    <section id="datos" class="blanco">
+      <h2>🎲 Dato Curioso de Buenos Aires</h2>
+      <button onclick="mostrarDato()">Generar dato</button>
+      <p id="dato"></p>
+    </section>
+
+  </main>
+
+  <footer>
+    <p>🌞 Página creada por Martu | Inspirada en la belleza simple de Buenos Aires 💙</p>
+  </footer>
+
+  <script>
+    function mostrarDato() {
+      const datos = [
+        "El Rosedal tiene más de 18.000 rosales 🌹",
+        "El subte porteño es el más antiguo de América Latina 🚇",
+        "El Obelisco fue construido en solo 31 días en 1936 🏗️",
+        "En la Reserva Ecológica viven más de 200 especies de aves 🐦",
+        "San Telmo es uno de los barrios más antiguos y mantiene calles empedradas desde el siglo XIX 🏘️"
+      ];
+      const random = Math.floor(Math.random() * datos.length);
+      document.getElementById("dato").textContent = datos[random];
+    }
+  </script>
+
+</body>
+</html>
+
+
+
+
